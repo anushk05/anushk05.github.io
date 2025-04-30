@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Saavi creations</title>
+    <style type="text/css">
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#f4f4f4;
+}
+
+header {
+    background-color:blue;
+    color: whitesmoke;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.logo h1 {
+    margin: 0;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.banner {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRM16Gd6xSOw7ZGr-vdLhyPqKsNcXyCyGUyIQ&s");
+    color: black;
+    padding: 50px 20px;
+    background-size: 100% 100%;
+    align: right: 10px;
+
+}
+
+.products {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.product {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    width: 150px;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    background-color:blue;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #ff1a4d;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+</style>
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="C:\Users\anushk gupta\OneDrive\Pictures\Screenshots\Screenshot 2025-04-30 211508.png" alt="Logo" style="height: 70px;width: 70px;">
+            
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Women</a></li>
+                <li><a href="#">Sale</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="banner">
+            <h2>Welcome TO Saavi creartions</h2>
+            <marquee>
+            <p>Your one-stop shop for the latest fashion trends!</p>
+        </marquee>
+        </section>
+
+        <section class="products">
+            <h2>Featured Products</h2>
+             <div class="product">
+                <img class="mySlides" src="C:\Users\anushk gupta\OneDrive\Documents\s1.jpg" style="display: block;">
+  <img class="mySlides" src="C:\Users\anushk gupta\OneDrive\Documents\s2.jpg" style="display: none;">
+  <img class="mySlides" src="C:\Users\anushk gupta\OneDrive\Documents\s3.jpg" style="display: none;">
+  <img class="mySlides" src="C:\Users\anushk gupta\OneDrive\Documents\s4.jpg" style="display: none;">
+                <button class="prev" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="next" onclick="plusDivs(1)">&#10095;</button>
+                <h3>Saree</h3>
+                <p>₹1100</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+  <img class="mySlides" src="C:\Users\anushk gupta\OneDrive\Documents\p14.jpg" style="display: block;">
+  <img class="mySlides" src="C:\Users\anushk gupta\OneDrive\Documents\p1.jpg" style="display: none;">
+  <img class="mySlides" src="C:\Users\anushk gupta\OneDrive\Documents\p12.jpg" style="display: none;">
+  <img class="mySlides" src="C:\Users\anushk gupta\OneDrive\Documents\p13.jpg" style="display: none;">
+                <button class="prev" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="next" onclick="plusDivs(1)">&#10095;</button>
+  <h3>Designer dress</h3>
+                <p>₹1500</p>
+  <button>Add to Cart</button>
+</div>
+                     <div class="product">
+                <img class="mySlides" src="C:\Users\anushk gupta\OneDrive\Documents\s22.jpg" style="display: block;">
+  <img class="mySlides" src="C:\Users\anushk gupta\OneDrive\Documents\s21.jpg" style="display: none;">
+  <img class="mySlides" src="C:\Users\anushk gupta\OneDrive\Documents\s23.jpg" style="display: none;">
+  <img class="mySlides" src="C:\Users\anushk gupta\OneDrive\Documents\s24.jpg" style="display: none;">
+  <img class="mySlides" src="C:\Users\anushk gupta\OneDrive\Documents\s25.jpg" style="display: none;">
+                <button class="prev" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="nextt" onclick="plusDivs(1)">&#10095;</button>
+                <h3>Saree</h3>
+                <p>₹1100</p>
+                <button>Add to Cart</button>
+            </div>
+        </section>
+        <section>
+            <div class="product">
+                <img class="mySlides" src="C:\Users\anushk gupta\OneDrive\Documents\l3.jpg" style="display: block;">
+  <img class="mySlides" src="C:\Users\anushk gupta\OneDrive\Documents\l6.jpg" style="display: none;">
+  <img class="mySlides" src="C:\Users\anushk gupta\OneDrive\Documents\l5.jpg" style="display: none;">
+  <img class="mySlides" src="C:\Users\anushk gupta\OneDrive\Documents\l4.jpg" style="display: none;">
+  <img class="mySlides" src="C:\Users\anushk gupta\OneDrive\Documents\l2.jpg" style="display: none;">
+  <img class="mySlides" src="C:\Users\anushk gupta\OneDrive\Documents\l1.jpg" style="display: none;">
+                <button class="prev" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="next" onclick="plusDivs(1)">&#10095;</button>
+                <h3>Lehenga</h3>
+                <p>₹2500</p>
+                <button>Add to Cart</button>
+            </div> 
+</section>
+<section>
+             <div class="product">
+                <img class="mySlides" src="C:\Users\anushk gupta\OneDrive\Documents\s31.jpg" style="display: block;">
+  <img class="mySlides" src="C:\Users\anushk gupta\OneDrive\Documents\s32.jpg" style="display: none;">
+  <img class="mySlides" src="C:\Users\anushk gupta\OneDrive\Documents\s33.jpg" style="display: none;">
+  <img class="mySlides" src="C:\Users\anushk gupta\OneDrive\Documents\s34.jpg" style="display: none;">
+                <button class="prev" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="next" onclick="plusDivs(1)">&#10095;</button>
+                <h3>Saree</h3>
+                <p>₹1100</p>
+                <button>Add to Cart</button>
+            </div>
+
+            
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2014 Saavi creations. All rights reserved.</p>
+        <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-method">
+                        <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p><a href="mailto:daksh.rampuria24@iimb.ac.in">
+                                Saavicreations07@gmail.com
+                            </a></p>
+                        </div>
+                    </div>
+                    <div class="contact-method">
+                        <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                        <div class="contact-details">
+                            <h3>Phone</h3>
+                            <p><a href="tel:+918320435357">+91 88266 70676</a></p>
+                        </div>
+                    </div>
+</body>
+</html>
